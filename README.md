@@ -1,5 +1,6 @@
 # Phase 3 Project - Churn prediction of SyriaTel Customers.
- ![SyriaTel Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wallpaperflare.com%2Fphoto-of-orange-lighted-concrete-building-with-people-standing-inside-damascus-umayyad-mosque-damascus-umayyad-mosque-wallpaper-hlvuy&psig=AOvVaw3pkhQMP4hPANgSn607xdCO&ust=1684974456224000&source=images&cd=vfe&ved=0CA4QjRxqGAoTCMilzcfZjP8CFQAAAAAdAAAAABC-AQ)
+ ![Damuscus city at night](https://github.com/Muramati/Churn_prediction_Telecom_Customer/blob/main/images/Damascus.jpg?raw=true)
+ Damascus City at night, the HQs of SyriaTel.
 
 ## Overview
 
@@ -128,7 +129,7 @@ In summary, the model achieved an accuracy of 93.76%, which indicates that it cl
 
 ## Conclusions
 
-1. Overall, the Random Forests and XGBoost models (both untuned and tuned) performed the best in terms of accuracy and  other evaluation metrics. These models exhibited higher accuracy and better balance between sensitivity and specificity, making them more suitable for predicting customer churn in the telecommunications dataset.The model created by the XGBoost untuned though is the best as it would predict the data at an accuracy of 94.83% and has an ROC AUC score of 89% which is good.
+1. Overall, the Random Forests and XGBoost models (both untuned and tuned) performed the best in terms of accuracy and  other evaluation metrics. These models exhibited higher accuracy and better balance between sensitivity and specificity, making them more suitable for predicting customer churn in the telecommunications dataset.The model created by the XGBoost untuned though is the best as it would predict the data at an accuracy of 94.83% and has an ROC AUC score of 89% which is good.git
 
 2. While determining the features to take action on as they look for ways to improve, SyriaTel should consider the following features from their data set: total eve calls international plan, total day calls, total night calls, total night minutes and customer service call as they rank the first in feature importances which represent the relative importance of each feature in predicting the target variable in the most performing model, the untuned XGboost.
 
