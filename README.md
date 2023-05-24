@@ -113,15 +113,11 @@ These are the results of the modelling:
 ### XGBoost (Tuned):
 
 
-Accuracy: 93.76% 
-
-Precision for class : 97% 
-
-Recall for class : 96%
-
-F1-Score for class : 96%
-
-In summary, the model achieved an accuracy of 93.76%, which indicates that it classified 93.76% of the instances correctly. It performed well in terms of specificity (96.11%) and sensitivity (78.08%), indicating a good balance between correctly classifying both negatives and positives. 
+    Accuracy: 93.76% 
+    Precision for class : 97% 
+    Recall for class : 96%
+    F1-Score for class : 96%
+    In summary, the model achieved an accuracy of 93.76%, which indicates that it classified 93.76% of the instances correctly. It performed well in terms of specificity (96.11%) and sensitivity (78.08%), indicating a good balance between correctly classifying both negatives and positives. 
     
 
 ### ROC AUC Curve
