@@ -54,18 +54,20 @@ The models used in the analysis were Logistic Regression, Random Forests, K-Near
     They are known for their ability to handle complex relationships and interactions between features.
     Random Forests can capture non-linear patterns in the data and provide robust predictions.
     This model was selected to leverage its ensemble nature and potential for high accuracy.
-    K-Nearest Neighbors (KNN):
+    
 
-3. KNN is a non-parametric algorithm that classifies data points based on their proximity to other points in the feature space.
+3. K-Nearest Neighbors (KNN):
+    KNN is a non-parametric algorithm that classifies data points based on their proximity to other points in the feature space.
     It can capture local patterns and is suitable when the decision boundary is not well-defined.
     KNN was included to explore the performance of a different type of model and assess its ability to identify churn.
-    XGBoost:
+    
 
-4. XGBoost is an optimized gradient boosting algorithm known for its high predictive power and efficiency.
+4. XGBoost:
+    XGBoost is an optimized gradient boosting algorithm known for its high predictive power and efficiency.
     It combines multiple weak models to create a strong ensemble model.
     XGBoost can handle complex interactions, feature importance, and missing data effectively.
     It was selected as a powerful model to potentially outperform other algorithms and improve prediction accuracy.
-    Tuning the XGBoost model was performed to optimize its hyperparameters and further improve its performance. The tuned model achieved perfect accuracy on the training data, indicating its potential to capture complex patterns and overfitting risks.
+    Tuning the XGBoost model was performed to optimize its hyperparameters and further improve its performance. The tuned model achieved perfect accuracy on the training    data, indicating its potential to capture complex patterns and overfitting risks.
 
 Overall, a combination of different models was chosen to explore their strengths and weaknesses in predicting churn. Logistic Regression provided interpretability, Random Forests offered robustness, KNN explored local patterns, and XGBoost aimed for high accuracy. This approach helped assess various aspects of the data and select the most effective models for predicting customer churn in the telecommunications dataset.
 
